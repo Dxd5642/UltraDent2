@@ -1,0 +1,21 @@
+@use '../../../mixins/fonts.scss';
+
+.footer{
+    &__contacts-text{
+        color: rgba(255, 255, 255, 0.6);
+
+        &_down{
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+
+    &__text{
+        @include fonts.Noto-sans(14px, 400, 20px, 0.25px);
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+
+        &:nth-of-type(1){
+            max-width: 486px;
+        }
+    }
+}

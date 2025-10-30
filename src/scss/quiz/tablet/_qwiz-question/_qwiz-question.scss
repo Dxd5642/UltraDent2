@@ -1,0 +1,9 @@
+@media (max-width: 1364px) {
+    .qwiz{
+        &__question{
+            width: 433px;
+            min-width: 433px;
+            gap: 21px;
+        }
+    }
+}

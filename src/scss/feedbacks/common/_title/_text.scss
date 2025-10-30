@@ -1,0 +1,33 @@
+@use '../../../mixins/colors.scss';
+@use '../../../mixins/fonts.scss';
+@use 'sass:map';
+
+.feedbacks{
+    &__title-text{
+        &--1{
+            @include fonts.Noto-sans(48px, 600, 40px, -4px);
+            color: map.get(colors.$colors, secondary);
+        }
+
+        &--2{
+            @include fonts.Noto-sans(32px, 500, 40px, 0px);
+            color: map.get(colors.$colors, secondary);
+        }
+
+        &--3{
+            @include fonts.Noto-sans(32px, 800, 40px, -2px);
+            padding: 10px;
+            border-radius: 16px;
+
+            &_white{
+                background-color: rgba(255, 255, 255, 1);
+                color: map.get(colors.$colors, secondary);
+            }
+
+            &_green{
+                background-color: rgba(92, 195, 123, 1);
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+    }
+}

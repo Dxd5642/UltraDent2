@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+    .contacts{
+        &__address{
+            padding: 32px;
+            width: 361px;
+        }
+    }
+}
+
+@media (max-width: 394px) {
+    .contacts{
+        &__address{
+            width: calc(100dvw - 32px);
+        }
+    }
+}

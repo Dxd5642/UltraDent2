@@ -1,0 +1,35 @@
+.bottom2{
+    &__forms{
+        display: flex;
+        gap: 16px;
+        align-items: end;
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+
+        &.unapprecial{
+            & p{
+                color: rgba(224, 42, 66, 1);
+            }
+
+            & input{
+                background-color: rgba(255, 171, 182, 0.719);
+                border-color: rgba(255, 98, 119, 0.719);
+                
+                &::placeholder{
+                    color: rgba(255, 0, 0, 1);
+                }
+            }
+        }
+    }
+
+    &__form-input{
+        background-color: rgba(246, 246, 246, 1);
+        border-color: rgba(224, 226, 228, 1);
+        height: 52px;
+        width: 300px;
+    }
+}

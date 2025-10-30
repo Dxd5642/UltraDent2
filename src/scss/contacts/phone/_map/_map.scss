@@ -1,0 +1,19 @@
+@media (max-width: 1024px) {
+    .contacts{
+        &__map-block{
+            width: 361px;
+            min-width: 361px;
+            height: 473px;
+            min-height: 473px;
+        }
+    }
+}
+
+@media (max-width: 394px) {
+    .contacts{
+        &__map-block{
+            width: calc(100dvw - 32px);
+            min-width: calc(100dvw - 32px);
+        }
+    }
+}

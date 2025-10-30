@@ -1,0 +1,32 @@
+@media (max-width: 1106px) {
+    .qwiz{
+        &__title{
+            &--text{
+                font-size: 24px;
+                line-height: 100%;
+                letter-spacing: -2px;
+
+                &_small{
+                    font-size: 24px;
+                    letter-spacing: 0px;
+                }
+
+                &_white{
+                    font-size: 22px;
+                    font-weight: 800;
+                    line-height: 40px;
+                    letter-spacing: -2px;
+                    padding: 2px 10px;
+                }
+
+                &_green{
+                    font-size: 22px;
+                    font-weight: 800;
+                    line-height: 40px;
+                    letter-spacing: -2px;
+                    padding: 2px 10px;
+                }
+            }
+        }
+    }
+}

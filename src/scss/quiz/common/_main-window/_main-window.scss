@@ -1,0 +1,14 @@
+.qwiz{
+    &__main-window{
+        min-width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    &__elastic-window{
+        display: flex;
+        width: auto;
+        height: auto;
+        transition: all 0.3s ease-in-out;
+    }
+}

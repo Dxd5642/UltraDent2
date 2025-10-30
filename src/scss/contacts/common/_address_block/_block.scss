@@ -1,0 +1,17 @@
+.contacts{
+    &__address{
+        padding: 32px;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+        background-color: rgba(255, 255, 255, 1);
+        margin-top: 26px;
+
+        &--decorate{
+            border: 1px solid rgba(204, 204, 204, 1);
+            width: 100%;
+        }
+    }
+}

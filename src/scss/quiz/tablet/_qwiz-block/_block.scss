@@ -1,0 +1,13 @@
+@media (max-width: 1364px) {
+    .qwiz{
+        &__qwiz-block{
+            width: 501px;
+            height: 752px;
+
+
+            &.lastBlock{
+                height: 740px;
+            }
+        }
+    }
+}

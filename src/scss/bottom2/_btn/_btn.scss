@@ -1,0 +1,21 @@
+@use '../../mixins/fonts.scss';
+
+.bottom2{
+    &__btn{
+        width: 221px;
+        height: 52px;
+        border-radius: 16px;
+        border: 1px solid rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0);
+        @include fonts.Noto-sans(14px, 500, 20px, -0.5px);
+        color: rgba(255, 255, 255, 1);
+
+        &.disabled{
+            opacity: 0.8;
+            background-color: rgba(158, 157, 160, 0.192);
+            border: 1px solid rgb(197, 197, 197);
+            box-shadow: unset;
+            color: rgb(197, 197, 197);
+        }
+    }
+}

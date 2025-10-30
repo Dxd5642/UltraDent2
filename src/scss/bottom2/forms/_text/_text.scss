@@ -1,0 +1,14 @@
+@use '../../../mixins/colors.scss';
+@use '../../../mixins/fonts.scss';
+
+.bottom2{
+    &__form-text{
+        @include fonts.Noto-sans(14px, 400, 20px, 0.25px);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    &__agree-text{
+        @include fonts.Noto-sans(14px, 400, 20px, 0.25px);
+        color: rgba(255, 255, 255, 1);
+    }
+}

@@ -1,0 +1,16 @@
+@media (max-width: 363px) {
+    .qwiz{
+        &__question-answers{
+            gap: 16px;
+        }
+    }
+}
+
+
+@media (max-width: 352px) {
+    .qwiz{
+        &__question-answers{
+            gap: 12px;
+        }
+    }
+}

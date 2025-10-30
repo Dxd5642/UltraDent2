@@ -1,0 +1,26 @@
+// Desktop
+@use './forms/forms' as *;
+@use './forms/_text/text' as *;
+@use './_btn/btn' as *;
+@use './_toggle/toggle' as *;
+
+
+.bottom2{
+    background-color: rgba(30, 134, 62, 1);
+
+    &__content{
+        margin: 60px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 905px) {
+    .bottom2{
+        display: none;
+    }
+}

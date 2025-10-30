@@ -1,0 +1,15 @@
+.footer{
+    &__nav-btn{
+        border-color: rgba(0, 0, 0, 0);
+        color: white;
+
+        &:hover{
+            border-color: white;
+        }
+
+        &:active{
+            background-color: white;
+            color: rgb(45, 45, 45);
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@media (max-width: 1106px) {
+    .qwiz{
+        &__question{
+            width: 341px;
+            min-width: 341px;
+            gap: 21px;
+        }
+    }
+}
+
+@media (max-width: 398px) {
+    .qwiz{
+        &__question{
+            width: calc(100dvw - 56px);
+            min-width: calc(100dvw - 56px);
+        }
+    }
+}
+
+@media (max-width: 363px) {
+    .qwiz{
+        &__question{
+            gap: 16px;
+        }
+    }
+}

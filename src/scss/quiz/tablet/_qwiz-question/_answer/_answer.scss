@@ -1,0 +1,10 @@
+@media (max-width: 1364px) {
+    .qwiz{
+        &__question-answers{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 26px;
+        }
+    }
+}

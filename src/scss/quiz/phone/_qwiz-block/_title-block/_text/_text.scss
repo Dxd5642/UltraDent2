@@ -1,0 +1,12 @@
+@media (max-width: 1106px) {
+    .qwiz{
+        &__qwiz--title{
+            &-text{
+                font-size: 22px;
+                &_green{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

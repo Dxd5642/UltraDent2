@@ -1,0 +1,60 @@
+@use './header/headMobile.scss' as *;
+@use './header/header.scss' as *;
+
+@use './body/body.scss' as *;
+
+@use './hero/hero.scss' as *;
+
+@use './bottom1/bottom1.scss' as *;
+
+@use './regal/regal.scss' as *;
+
+@use './quiz/qwiz.scss' as *;
+
+@use './bottom2/bottom2.scss' as *;
+
+@use './feedbacks/feedbacks.scss' as *;
+
+@use './contacts/contacts.scss' as *;
+
+@use './footer/footer.scss' as *;
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 0px auto;
+  padding: 0px 16px;
+  align-items: center;
+  max-width: 1880px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+a{
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+body{
+  overflow-x: hidden;
+
+  &.no-scroll{
+    overflow-y: hidden;
+  }
+}
+
+input {outline:none;}
