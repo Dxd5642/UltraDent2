@@ -43,6 +43,7 @@
         }
 
         &.disabled{
+          opacity: 0.5;
             border-color: unset;
                 & .qwiz__nav-btn--text{
                     color: unset;

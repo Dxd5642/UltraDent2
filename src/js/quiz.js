@@ -1,3 +1,5 @@
+import toggleBackblur from "./message.js";
+
 class Qwiz {
     constructor() {
         this.currentQuestion = 0;
@@ -280,6 +282,13 @@ class Qwiz {
             };
 
             console.log('Отправка данных:', requestCall);
+            toggleBackblur('Мы получили вашу заявку и позвоним в течении 15 минут, чтобы уточнить детали<br><br>Ждём вас на <span class="message__text-p_green">бесплатной диагностике</span><br>' +
+                'до конца месяца.<br>' +
+                '<br>' +
+                'Успейте пройти\n' +
+                '<span class="message__text-p_green">детальное обследование за 0 ₽</span><br>' +
+                '<br>' +
+                '+ получите фиксированную стоимость')
 
             nameInput.value = '';
             lastNameInput.value = '';

@@ -1,3 +1,5 @@
+@use '../../../../mixins/animations.scss';
+
 .hero{
     &__doctor-fio{
         background-color: rgba(255, 255, 255, 1);
@@ -7,5 +9,6 @@
         position: absolute;
         top: 165px;
         right: -117px;
+        @include animations.departRight(1.5s)
     }   
 }

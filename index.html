@@ -9,12 +9,12 @@
   <header class='header'>
       <div class='container header__container'>
           <div class='header__head'>
-              <img src='./src/assets/svg/header/logo.svg' alt="Ультра-Дент Стоматология" />
+              <a href="#hero"><img src='./src/assets/svg/header/logo.svg' alt="Ультра-Дент Стоматология" /></a>
               <nav class='header__nav'>
-                  <button class='header__nav-btn'>Цены</button>
-                  <button class='header__nav-btn'>О нас</button>
-                  <button class='header__nav-btn'>Отзывы</button>
-                  <button class='header__nav-btn'>Контакты</button>
+                  <a href="#hero"><button class='header__nav-btn'>Цены</button></a>
+                  <a href="#bottom1"><button class='header__nav-btn'>О нас</button></a>
+                  <a href="#feedbacks"><button class='header__nav-btn'>Отзывы</button></a>
+                  <a href="#contacts"><button class='header__nav-btn'>Контакты</button></a>
               </nav>
               <div class="header__contacts">
                   <div class="header__contacts-block">
@@ -27,7 +27,7 @@
                       <p class='header__contacts-text'>Получить 3D-снимок <span class='header__contacts-text_green'>0₽</span><br /><a href="tel:+73433190523"><span class='header__contacts-text_black'>+7 (343) 319 - 05 - 23</span></a></p>
                   </div>
                   <div class='header__line-decorate'></div>
-                  <button class='header__btn-request'>Запись на прием</button>
+                  <a href="#bottom2"><button class='header__btn-request'>Запись на прием</button></a>
                   <button class="header__btn-mobile-header">
                   <div class='header__stick'></div>
                   <div class='header__stick'></div>
@@ -42,10 +42,10 @@
       </div>
       <div class='header__head-mobile'>
       <nav class='header__nav'>
-          <button class='header__nav-btn'>Цены</button>
-          <button class='header__nav-btn'>О нас</button>
-          <button class='header__nav-btn'>Отзывы</button>
-          <button class='header__nav-btn'>Контакты</button>
+          <a href="#hero"><button class='header__nav-btn'>Цены</button></a>
+          <a href="#bottom1"><button class='header__nav-btn'>О нас</button></a>
+          <a href="#feedbacks"><button class='header__nav-btn'>Отзывы</button></a>
+          <a href="#contacts"><button class='header__nav-btn'>Контакты</button></a>
       </nav>
       <div class="header__contacts">
           <div class="header__line-decorate"></div>
@@ -59,14 +59,14 @@
               <p class='header__contacts-text'>Время работы:<br /><span class='header__contacts-text_black'>Ежедневно с 9:00 до 20:00</span></p>
           </div>
           <div class='header__line-decorate'></div>
-          <button class='header__btn-request'>Запись на прием</button>
+          <a href="#qwiz" class="header__btn-request--a"><button class='header__btn-request'>Запись на прием</button></a>
       </div>
       </div>
     </header>
 
 
   <div class='body-parent'>
-      <div class='hero'>
+      <div id ="hero" class='hero'>
           <div class='container'>
               <div class='hero__content'>
                   <div class='hero__new-tooth'>
@@ -76,7 +76,10 @@
                           <p class='hero__text-3'>ПО САМОЙ НИЗКОЙ ЦЕНЕ</p>
                       </div>
                       <p class='hero__text-4'>«All-on-4/6»</p>
-                      <img src='./src/assets/images/hero/jaw.png' alt="Эмпланты" class='hero__img-jaw'/>
+                      <div class='hero__img-jaw'>
+                          <img src="./src/assets/images/hero/jaw_part1.png" alt="Зубные импланты" class="hero__img-jaw--item">
+                          <img src="./src/assets/images/hero/jaw_part2.png" alt="Зубные импланты" class="hero__img-jaw--item">
+                      </div>
                   </div>
                   <div class='hero__gift'>
                       <p class='hero__gift--text1'>Ответьте на 4 вопроса —</p>
@@ -111,27 +114,27 @@
           </div>
       </div>
 
-      <div class='bottom1'>
+      <div id ="bottom1" class='bottom1'>
           <div class='container'>
               <div class='bottom1__content'>
-                  <p class='bottom1__title'><span class='bottom1__title bottom1__title_white'>4 импланта</span>с установкой под ключ</p>
+                  <p class='bottom1__title animateOnScroll'><span class='bottom1__title bottom1__title_white'>4 импланта</span>с установкой под ключ</p>
                   <div class='bottom1__list'>
-                      <p class='bottom1__text'><img src="./src/assets/svg/bottom1/checkMark.svg" alt="Галочка" class='bottom1__icon'/>Без боли</p>
-                      <p class='bottom1__text'><img src="./src/assets/svg/bottom1/checkMark.svg" alt="Галочка" class='bottom1__icon'/>Можно во сне</p>
-                      <p class='bottom1__text'><img src="./src/assets/svg/bottom1/checkMark.svg" alt="Галочка" class='bottom1__icon'/>Пожизненная гарантия</p>
-                      <p class='bottom1__text'><img src="./src/assets/svg/bottom1/checkMark.svg" alt="Галочка" class='bottom1__icon'/>Опыт врачей от 8 до 32 лет</p>
-                      <p class='bottom1__text'><img src="./src/assets/svg/bottom1/checkMark.svg" alt="Галочка" class='bottom1__icon'/>На 34% дешевле по Екатеринбургу</p>
+                      <p class='bottom1__text animateOnScroll'><img src="./src/assets/svg/bottom1/checkMark.svg" alt="Галочка" class='bottom1__icon'/>Без боли</p>
+                      <p class='bottom1__text animateOnScroll'><img src="./src/assets/svg/bottom1/checkMark.svg" alt="Галочка" class='bottom1__icon'/>Можно во сне</p>
+                      <p class='bottom1__text animateOnScroll'><img src="./src/assets/svg/bottom1/checkMark.svg" alt="Галочка" class='bottom1__icon'/>Пожизненная гарантия</p>
+                      <p class='bottom1__text animateOnScroll'><img src="./src/assets/svg/bottom1/checkMark.svg" alt="Галочка" class='bottom1__icon'/>Опыт врачей от 8 до 32 лет</p>
+                      <p class='bottom1__text animateOnScroll'><img src="./src/assets/svg/bottom1/checkMark.svg" alt="Галочка" class='bottom1__icon'/>На 34% дешевле по Екатеринбургу</p>
                   </div>
               </div>
           </div>
       </div>
 
-      <div class='regal'>
+      <div id ="regal" class='regal'>
           <div class='container'>
               <div class="regal__content">
-                  <div class='regal__main-img'></div>
+                  <div class='regal__main-img animateOnScroll'></div>
                   <div class='regal__widgets'>
-                      <div class='regal__widget'>
+                      <div class='regal__widget animateOnScroll'>
                           <img src="./src/assets/images/regal/star.png" alt="Кубок" class='regal__widget--img'/>
                           <p class='regal__widget--text'>
                               <b>Первая в России</b> сеть стоматологий
@@ -139,7 +142,7 @@
                               «Мед Эксперт Консалт»
                           </p>
                       </div>
-                      <div class='regal__info'>
+                      <div class='regal__info animateOnScroll'>
                           <h3 class='regal__title'>Получите всю челюсть с приживаемостью <span class='regal__title_green'>99,8%</span> у экспертов мирового уровня</h3>
                           <div class='regal__checkbox'>
                               <img src='./src/assets/svg/regal/checkmark.svg' alt="Галочка" class='regal__checkbox--img'/>
@@ -163,17 +166,17 @@
           </div>
       </div>
 
-      <div class="qwiz">
+      <div id ="qwiz" class="qwiz">
           <div class="container">
               <div class="qwiz__content">
-                  <div class='qwiz__title-block'>
+                  <div class='qwiz__title-block animateOnScroll'>
                       <h3 class="qwiz__title--text">Рассчитайте стоимость</h3>
                       <h3 class="qwiz__title--text qwiz__title--text_small">и</h3>
                       <h3 class="qwiz__title--text qwiz__title--text_white">закрепите цену со скидкой</h3>
                       <h3 class="qwiz__title--text qwiz__title--text_green">по акции</h3>
                   </div>
 
-                  <div class="qwiz__qwiz-block">
+                  <div class="qwiz__qwiz-block animateOnScroll">
                       <div class='qwiz__qwiz--title-block'>
                           <h3 class='qwiz__qwiz--title-text'>Ответьте на 4 вопроса, чтобы получить в подарки:</h3>
                           <p class='qwiz__qwiz--title-text qwiz__qwiz--title-text_green'>КТ и удаление зубов при лечении в клинике — 0 ₽</p>
@@ -360,7 +363,7 @@
                                               <p class="qwizRequest__input-text">Введите ваш телефон</p>
                                               <input type="tel" class="qwizRequest__input-form" placeholder="+7 (___) - ___ - __ - __">
                                           </div>
-                                          <button class="qwizRequest__btn-send">Получить расчёт</button>
+                                          <button type="button" class="qwizRequest__btn-send">Получить расчёт</button>
                                           <div class="qwizRequest__toggleAgree">
                                               <div class="qwizRequest__toggleAgree--togle active">
                                                   <div class="qwizRequest__toggleAgree--circle"></div>
@@ -395,22 +398,143 @@
           </div>
       </div>
 
-      <div class='feedbacks'>
+      <div id ="feedbacks" class='feedbacks'>
           <div class="container">
               <div class="feedbacks__content">
-                  <div class="feedbacks__title-block">
+                  <div class="feedbacks__title-block animateOnScroll">
                       <h2 class="feedbacks__title-text--1">Доверьтесь экспертам</h2>
                       <h2 class="feedbacks__title-text--2">в имплантации и методе</h2>
                       <h2 class="feedbacks__title-text--3">
-                          <span class='feedbacks__title--3_white'>Все на 4-х импланах</span>
-                          <span class='feedbacks__title--3_green'>с 20-летней практикой</span>
+                          <span class='feedbacks__title-text--3_white'>Все на 4-х импланах</span><span class='feedbacks__title-text--3_green'>с 20-летней практикой</span>
                       </h2>
+                  </div>
+                  <div class="feedbacks__nav">
+                      <button class="feedbacks__nav--btn feedbacks__nav--btn_back">
+                          <div class=""></div>
+                      </button>
+                      <button class="feedbacks__nav--btn feedbacks__nav--btn_next">
+                          <div class="feedbacks__nav--btn-img"></div>
+                      </button>
+                  </div>
+                  <div class="feedbacks__reviews--items animateOnScroll">
+                      <div class="feedbacks__reviews">
+                          <div class="feedbacks__review-block">
+                              <div class="feedbacks__img-block">
+                                  <img src="./src/assets/images/feedbacks/feedbacksImgBefore.png" alt="Фото до" class="feedbacks__img">
+                                  <img src="./src/assets/images/feedbacks/feedbacksImgAfter.png" alt="Фото после" class="feedbacks__img">
+                                  <img src="./src/assets/images/feedbacks/feedbacksImgWomen.png" alt="Фото пациента" class="feedbacks__img">
+                              </div>
+                              <div class="feedbacks__info-block">
+                                  <div class="feddbacks__info">
+                                      <p class="feedbacks__info-text_green">Пациент</p>
+                                      <p class="feedbacks__info-text">Мария, 35 лет</p>
+                                  </div>
+                                  <div class="feddbacks__info">
+                                      <p class="feedbacks__info-text_green">Сопутствующий диагноз</p>
+                                      <p class="feedbacks__info-text">Атрофия костной ткани</p>
+                                  </div>
+                                  <div class="feddbacks__info">
+                                      <p class="feedbacks__info-text_green">Услуга</p>
+                                      <p class="feedbacks__info-text">Имплантация и протезирование 2х зубов</p>
+                                  </div>
+                                  <span class="feedbacks__decorate"></span>
+                                  <div class="feedbacks__flags">
+                                      <img src="./src/assets/svg/feedbacks/flag.svg" alt="" class="feedbacks__flags--img"><p class="feedbacks__flags--text">Швейцария<br><span class="feedbacks__flags--text_upper">2 импланта</span></p>
+                                  </div>
+                                  <div class="feedbacks__flags">
+                                      <img src="./src/assets/svg/feedbacks/tooth.svg" alt="" class="feedbacks__flags--img"><p class="feedbacks__flags--text">Коронки<br><span class="feedbacks__flags--text_upper">из циркония</span></p>
+                                  </div>
+                                  <div class="feedbacks__flags">
+                                      <img src="./src/assets/svg/feedbacks/time.svg" alt="" class="feedbacks__flags--img"><p class="feedbacks__flags--text">Время посещения<br><span class="feedbacks__flags--text_upper">1 приём</span></p>
+                                  </div>
+                                  <div class="feedbacks__flags">
+                                      <img src="./src/assets/svg/feedbacks/clock.svg" alt="" class="feedbacks__flags--img"><p class="feedbacks__flags--text">Время процедур<br><span class="feedbacks__flags--text_upper">3 часа</span></p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="feedbacks__review-block">
+                              <div class="feedbacks__img-block">
+                                  <img src="./src/assets/images/feedbacks/feedbacksImgBefore.png" alt="Фото до" class="feedbacks__img">
+                                  <img src="./src/assets/images/feedbacks/feedbacksImgAfter.png" alt="Фото после" class="feedbacks__img">
+                                  <img src="./src/assets/images/feedbacks/feedbacksImgMen1.png" alt="Фото пациента" class="feedbacks__img">
+                              </div>
+                              <div class="feedbacks__info-block">
+                                  <div class="feddbacks__info">
+                                      <p class="feedbacks__info-text_green">Пациент</p>
+                                      <p class="feedbacks__info-text">Игорь, 35 лет</p>
+                                  </div>
+                                  <div class="feddbacks__info">
+                                      <p class="feedbacks__info-text_green">Сопутствующий диагноз</p>
+                                      <p class="feedbacks__info-text">Атрофия костной ткани</p>
+                                  </div>
+                                  <div class="feddbacks__info">
+                                      <p class="feedbacks__info-text_green">Услуга</p>
+                                      <p class="feedbacks__info-text">Имплантация и протезирование 2х зубов</p>
+                                  </div>
+                                  <span class="feedbacks__decorate"></span>
+                                  <div class="feedbacks__flags">
+                                      <img src="./src/assets/svg/feedbacks/flag.svg" alt="" class="feedbacks__flags--img"><p class="feedbacks__flags--text">Швейцария<br><span class="feedbacks__flags--text_upper">2 импланта</span></p>
+                                  </div>
+                                  <div class="feedbacks__flags">
+                                      <img src="./src/assets/svg/feedbacks/tooth.svg" alt="" class="feedbacks__flags--img"><p class="feedbacks__flags--text">Коронки<br><span class="feedbacks__flags--text_upper">из циркония</span></p>
+                                  </div>
+                                  <div class="feedbacks__flags">
+                                      <img src="./src/assets/svg/feedbacks/time.svg" alt="" class="feedbacks__flags--img"><p class="feedbacks__flags--text">Время посещения<br><span class="feedbacks__flags--text_upper">1 приём</span></p>
+                                  </div>
+                                  <div class="feedbacks__flags">
+                                      <img src="./src/assets/svg/feedbacks/clock.svg" alt="" class="feedbacks__flags--img"><p class="feedbacks__flags--text">Время процедур<br><span class="feedbacks__flags--text_upper">3 часа</span></p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="feedbacks__review-block">
+                      <div class="feedbacks__img-block">
+                          <img src="./src/assets/images/feedbacks/feedbacksImgBefore.png" alt="Фото до" class="feedbacks__img">
+                          <img src="./src/assets/images/feedbacks/feedbacksImgAfter.png" alt="Фото после" class="feedbacks__img">
+                          <img src="./src/assets/images/feedbacks/feedbacksImgMen2.png" alt="Фото пациента" class="feedbacks__img">
+                      </div>
+                      <div class="feedbacks__info-block">
+                          <div class="feddbacks__info">
+                              <p class="feedbacks__info-text_green">Пациент</p>
+                              <p class="feedbacks__info-text">Михаил, 70 лет</p>
+                          </div>
+                          <div class="feddbacks__info">
+                              <p class="feedbacks__info-text_green">Сопутствующий диагноз</p>
+                              <p class="feedbacks__info-text">Атрофия костной ткани</p>
+                          </div>
+                          <div class="feddbacks__info">
+                              <p class="feedbacks__info-text_green">Услуга</p>
+                              <p class="feedbacks__info-text">Имплантация и протезирование 2х зубов</p>
+                          </div>
+                          <span class="feedbacks__decorate"></span>
+                          <div class="feedbacks__flags">
+                              <img src="./src/assets/svg/feedbacks/flag.svg" alt="" class="feedbacks__flags--img"><p class="feedbacks__flags--text">Швейцария<br><span class="feedbacks__flags--text_upper">2 импланта</span></p>
+                          </div>
+                          <div class="feedbacks__flags">
+                              <img src="./src/assets/svg/feedbacks/tooth.svg" alt="" class="feedbacks__flags--img"><p class="feedbacks__flags--text">Коронки<br><span class="feedbacks__flags--text_upper">из циркония</span></p>
+                          </div>
+                          <div class="feedbacks__flags">
+                              <img src="./src/assets/svg/feedbacks/time.svg" alt="" class="feedbacks__flags--img"><p class="feedbacks__flags--text">Время посещения<br><span class="feedbacks__flags--text_upper">1 приём</span></p>
+                          </div>
+                          <div class="feedbacks__flags">
+                              <img src="./src/assets/svg/feedbacks/clock.svg" alt="" class="feedbacks__flags--img"><p class="feedbacks__flags--text">Время процедур<br><span class="feedbacks__flags--text_upper">3 часа</span></p>
+                          </div>
+                      </div>
+                  </div>
+                    </div>
+                  </div>
+                  <div class="feedbacks__nav">
+                      <button class="feedbacks__nav--btn feedbacks__nav--btn_back">
+                          <div class=""></div>
+                      </button>
+                      <button class="feedbacks__nav--btn feedbacks__nav--btn_next">
+                          <div class="feedbacks__nav--btn-img"></div>
+                      </button>
                   </div>
               </div>
           </div>
       </div>
 
-      <div class="bottom2">
+      <div id ="bottom2" class="bottom2">
           <div class="container">
               <div class="bottom2__content">
                   <form class="bottom2__forms">
@@ -433,7 +557,7 @@
                                       placeholder="+7 (___) - ___ - __ - __">
                           </label>
                       </div>
-                      <button class="bottom2__btn">Запись на приём</button>
+                      <button type="button" class="bottom2__btn">Запись на приём</button>
                   </form>
                   <div class="bottom2__agree-togle">
                       <div class="bottom2__toggle active">
@@ -445,15 +569,15 @@
           </div>
       </div>
 
-      <div class='contacts'>
+      <div id ="contacts" class='contacts'>
           <div class='container'>
               <div class="contacts__content">
-                  <div class='contacts__title-block'>
+                  <div class='contacts__title-block animateOnScroll'>
                       <h2 class='contacts__title-text--1'>Ждём вас в гости!</h2>
                       <h3 class='contacts__title-text--2'>Мы работаем каждый день </h3>
                       <h3 class='contacts__title-text--3'>с 09:00 до 21:00</h3>
                       <h3 class='contacts__title-text--4'>+7 (343) 319-05-23</h3>
-                      <div class='contacts__address'>
+                      <div class='contacts__address animateOnScroll'>
                           <p class='contacts__address-text'><span class='contacts__address-text_green'>Екатеринбург</span><br />Добролюбова, д. 16/2</p>
                           <div class='contacts__address--decorate'></div>
                           <p class='contacts__address-text'><span class='contacts__address-text_green'>Екатеринбург</span><br />Серова, д. 45</p>
@@ -468,16 +592,16 @@
           </div>
       </div>
 
-      <div class='footer'>
+      <div id ="footer" class='footer'>
           <div class="container">
               <div class="footer__content">
                   <div class='header__head footer__block'>
-                      <img src='./src/assets/svg/footer/logo.svg' alt="Ультра-Дент Стоматология" />
+                      <a href="#hero"><img src='./src/assets/svg/footer/logo.svg' alt="Ультра-Дент Стоматология" /></a>
                       <nav class='header__nav'>
-                          <button class='header__nav-btn footer__nav-btn'>Цены</button>
-                          <button class='header__nav-btn footer__nav-btn'>О нас</button>
-                          <button class='header__nav-btn footer__nav-btn'>Отзывы</button>
-                          <button class='header__nav-btn footer__nav-btn'>Контакты</button>
+                          <a href="#hero"><button class='header__nav-btn footer__nav-btn'>Цены</button></a>
+                          <a href="#bottom1"><button class='header__nav-btn footer__nav-btn'>О нас</button></a>
+                          <a href="#review"><button class='header__nav-btn footer__nav-btn'>Отзывы</button></a>
+                          <a href="#contacts"><button class='header__nav-btn footer__nav-btn'>Контакты</button></a>
                       </nav>
                       <div class="header__contacts">
                           <div class="header__contacts-block">
@@ -490,7 +614,7 @@
                               <p class='header__contacts-text footer__contacts-text'>Получить 3D-снимок <br /><a href="tel:+73433190523"><span class='header__contacts-text_black footer__contacts-text_down'>+7 (343) 319 - 05 - 23</span></a></p>
                           </div>
                           <div class='header__line-decorate'></div>
-                          <button class='header__btn-request footer__nav-btn footer__btn-reques'>Обратный звонок</button>
+                          <a href="#bottom2"><button class='header__btn-request footer__nav-btn footer__btn-reques'>Обратный звонок</button></a>
                       </div>
                   </div>
                   <p class='footer__text'>
@@ -502,12 +626,18 @@
               </div>
           </div>
       </div>
+  </div>
 
-
-
-
-
-
+  <div class="backblur">
+      <div class="message">
+          <h2 class="message__text-title">Спасибо!<br>Мы получили ваши ответы</h2>
+          <p class="message__text-p">Мы получили вашу заявку и позвоним в течении 15 минут, чтобы уточнить детали</p>
+          <button class="message__btn_answer">Хорошо</button>
+          <button class="message__btn-close">
+              <div class="message__btn-close--img"></div>
+              <div class="message__btn-close--img"></div>
+          </button>
+      </div>
   </div>
 
 

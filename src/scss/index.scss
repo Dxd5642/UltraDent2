@@ -1,6 +1,13 @@
 @use './header/headMobile.scss' as *;
 @use './header/header.scss' as *;
 
+@use './backblur/backblur' as *;
+
+@use './message/_message.scss' as *;
+@use './message/_text/_text.scss' as *;
+@use './message/btn-close/_btn.scss' as *;
+@use './message/btn-answer/_btn.scss' as *;
+
 @use './body/body.scss' as *;
 
 @use './hero/hero.scss' as *;
@@ -58,3 +65,17 @@ body{
 }
 
 input {outline:none;}
+
+.animateOnScroll{
+  opacity: 0;
+  transform: translateY(-100px);
+  transition-property: transform, opacity;
+  transition-duration: 0s;
+  transition-timing-function: ease-in-out;
+
+  &.animateActive{
+    opacity: 1;
+    transform: translateY(0px);
+    transition-duration: 0.7s;
+  }
+}

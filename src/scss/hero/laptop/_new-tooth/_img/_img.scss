@@ -1,8 +1,9 @@
-@media (max-width: 1366px) {
+@media (max-width: 1406px) {
     .hero{
         &__img-jaw{
+          &--item{
             width: 254px;
-            height: 228px;
+          }
         }
     }
 }

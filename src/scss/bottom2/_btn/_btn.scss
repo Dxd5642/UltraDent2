@@ -16,6 +16,28 @@
             border: 1px solid rgb(197, 197, 197);
             box-shadow: unset;
             color: rgb(197, 197, 197);
+
+            &:hover{
+              color: rgb(197, 197, 197);;
+              border-color: rgb(197, 197, 197);
+            }
+
+            &:active{
+              color: rgb(197, 197, 197);;
+              border-color: rgb(197, 197, 197);
+              background-color: rgba(158, 157, 160, 0.192);
+            }
+        }
+
+        &:hover{
+          color: rgb(49, 234, 110);
+          border-color: rgb(49, 234, 110);
+        }
+
+        &:active{
+          color: rgb(45, 45, 45);
+          border-color: white;
+          background-color: white;
         }
     }
 }

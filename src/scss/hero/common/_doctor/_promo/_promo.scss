@@ -1,3 +1,5 @@
+@use '../../../../mixins/animations.scss';
+
 .hero{
     &__doctor-promo{
         border-radius: 16px;
@@ -10,5 +12,6 @@
         position: absolute;
         bottom: -82px;
         right: -62px;
+      @include animations.departBottom(2.6s)
     }
 }

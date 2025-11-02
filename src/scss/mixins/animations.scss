@@ -1,0 +1,33 @@
+@mixin departRight($delay: 0) {
+  animation-name: departRight;
+  animation-duration: 1s;
+  animation-delay: $delay;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  @keyframes departRight {
+    0%{
+      transform: translateX(100dvw);
+    }
+    100%{
+      transform: translateX(0);
+    }
+  }
+}
+
+@mixin departBottom($delay: 0) {
+  animation-name: departBottom;
+  animation-duration: 0.5s;
+  animation-delay: $delay;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  @keyframes departBottom {
+    0%{
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}

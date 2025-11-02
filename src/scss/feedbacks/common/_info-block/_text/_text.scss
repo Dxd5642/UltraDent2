@@ -1,0 +1,25 @@
+@use '../../../../mixins/fonts.scss';
+@use '../../../../mixins/colors.scss';
+@use 'sass:map';
+
+.feedbacks{
+  &__info-text{
+    @include fonts.Noto-sans(18px, 500, 24px, 0px);
+    color: map.get(colors.$colors, secondary);
+
+    &_green{
+      @include fonts.Noto-sans(14px, 700, 100%, -1px);
+      color: rgba(67, 185, 105, 1);
+    }
+  }
+
+  &__flags--text{
+    @include fonts.Noto-sans(20px, 300, 100%, 0px);
+    color: rgba(102, 102, 102, 1);
+
+    &_upper{
+      @include fonts.Noto-sans(32px, 500, 100%, 0px);
+      color: rgba(102, 102, 102, 1);
+    }
+  }
+}

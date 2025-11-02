@@ -16,17 +16,25 @@
 
         &--3{
             @include fonts.Noto-sans(32px, 800, 40px, -2px);
-            padding: 10px;
+            font-style: italic;
             border-radius: 16px;
+            margin-top: 16px;
 
             &_white{
                 background-color: rgba(255, 255, 255, 1);
                 color: map.get(colors.$colors, secondary);
+                border-radius: 16px;
+                padding: 10px;
+                width: fit-content;
             }
 
             &_green{
                 background-color: rgba(92, 195, 123, 1);
                 color: rgba(255, 255, 255, 1);
+                border-radius: 16px;
+                padding: 10px;
+                text-transform: uppercase;
+                width: fit-content;
             }
         }
     }

@@ -1,0 +1,11 @@
+.feedbacks{
+  &__flags{
+    display: flex;
+    gap: 16px;
+
+    &--img{
+      width: 72px;
+      height: 51px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.feedbacks{
+  &__review-block{
+    width: 361px;
+    max-width: 361px;
+    min-width: 361px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

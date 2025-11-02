@@ -1,3 +1,5 @@
+import toggleBackblur from "./message.js";
+
 class Bottom2 {
     constructor() {
         this.isAgree = true;
@@ -130,6 +132,7 @@ class Bottom2 {
                 };
 
                 console.log('Отправка данных:', requestCall);
+                toggleBackblur();
 
                 this.formData = {
                     name: '',

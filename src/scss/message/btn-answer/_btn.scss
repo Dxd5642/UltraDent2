@@ -1,0 +1,30 @@
+@use '../../mixins/colors.scss';
+@use '../../mixins/fonts.scss';
+@use 'sass:map';
+
+.message{
+  &__btn_answer{
+    @include fonts.Noto-sans(14px, 500, 20px, -0.5px);
+    color: map.get(colors.$colors, secondary);
+    width: 100%;
+    height: auto;
+    border: 1px solid map.get(colors.$colors, secondary);
+    border-radius: 16px;
+    background-color: white;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+      color: rgba(30, 134, 62, 1);
+      border-color: rgba(30, 134, 62, 1);
+    }
+
+    &:active{
+      color: white;
+      background-color: rgba(30, 134, 62, 1);
+      border-color: rgba(30, 134, 62, 1);
+    }
+  }
+}

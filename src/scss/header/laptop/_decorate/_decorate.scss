@@ -1,7 +1,10 @@
 @media (max-width: 1530px) {
     .header{
         &__decorate{
-            width: calc(100% - 32px);
+            width: calc(100%);
+            border: 16px solid white;
+            border-top: 1px;
+            border-bottom: 0px;
             transform: translateY(44px);
         }
     }

@@ -1,0 +1,54 @@
+.feedbacks{
+  &__nav{display: none}
+}
+
+@media (max-width: 1154px) {
+  .feedbacks{
+    &__nav{
+      display: flex;
+      gap: 16px;
+
+      &--btn{
+        width: 52px;
+        height: 52px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
+        background-color: rgba(255, 255, 255, 0.25);
+        border: 0px;
+
+        & div{
+          background-image: url("../../../../assets/svg/feedbacks/arrow.svg");
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+
+        &:hover{
+          background-color: rgba(30, 134, 62, 0.25);
+        }
+
+        &:active{
+          background-color: rgba(30, 134, 62, 0.6);
+
+          & div{
+            background-image: url("../../../../assets/svg/feedbacks/arrow_white.svg");
+          }
+        }
+
+        &-img{
+          transform: rotate(180deg);
+        }
+
+        & div{
+          min-width: 7px;
+          min-height: 13px;
+        }
+      }
+    }
+  }
+}
+
+
+

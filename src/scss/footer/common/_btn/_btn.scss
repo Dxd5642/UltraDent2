@@ -1,5 +1,16 @@
 .footer{
     &__btn-reques{
         border-color: white;
+        color: white;
+
+      &:hover{
+        color: rgb(49, 234, 110);
+        border-color: rgb(49, 234, 110);
+      }
+
+      &:active{
+        color: rgb(45, 45, 45);
+        border-color: white;
+      }
     }
 }
