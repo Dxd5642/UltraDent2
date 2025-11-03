@@ -7,4 +7,11 @@ export default defineConfig({
         port: 5642,
         strictPort: false
     },
+    build: {
+        outDir: 'dist',
+        assetsDir: 'assets',
+        assetsInlineLimit: 4096,
+    },
+    base: '/UltraDent2Deploy/',
+    assetsInclude: ['**/*.svg']
 })
