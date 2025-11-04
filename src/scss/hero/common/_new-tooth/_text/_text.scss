@@ -7,6 +7,9 @@
         @include fonts.Noto-sans(48px, 600, 40px, -4px);
         color: map.get(colors.$colors, white);
         min-width: 630px;
+        hyphens: none;
+        word-break: break-all;
+        overflow-wrap: normal;
     }
 
     &__text-2{
