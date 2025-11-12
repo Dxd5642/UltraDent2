@@ -15,6 +15,7 @@
                 @include fonts.Noto-sans(14px, 400, 150%, 0em);
                 color: rgba(255, 255, 255, 1);
                 text-decoration: underline;
+                text-align: center;
             }
         }
     }
@@ -22,5 +23,27 @@
     &__imgProrok{
         width: 165px;
         height: 50px;
+    }
+}
+
+@media (max-width: 810px) {
+    .footer{
+        &__row{
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+@media (max-width: 384px) {
+    .footer{
+        &__row{
+            &--links{
+                flex-direction: column;
+            }
+        }
+
+        &__imgProrok{
+            margin-top: 16px;
+        }
     }
 }
