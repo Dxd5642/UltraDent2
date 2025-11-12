@@ -1,0 +1,29 @@
+@use '../../../../mixins/fonts.scss';
+
+.hero__list-item--btn{
+    width: 100%;
+    border-radius: 16px;
+    padding: 10px;
+    background-color: rgba(255, 225, 71, 1);
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+
+    @include fonts.Noto-sans(14px, 500, 20px -0.5px);
+    color: rgba(45, 45, 45, 1);
+
+    &:hover{
+        transform: translateY(-6px);
+    }
+
+    &:active{
+        transform: translateY(-6px) scale(90%);
+    }
+}

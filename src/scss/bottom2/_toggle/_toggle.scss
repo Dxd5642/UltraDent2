@@ -13,7 +13,7 @@
         background-color: rgba(0, 255, 255, 0);
         display: flex;
         align-items: center;
-        //justify-content: center;
+        justify-content: center;
 
         &.active{
             & .bottom2__toggle-check{
@@ -24,11 +24,10 @@
 
     &__toggle-check{
         opacity: 0;
-        width: 6.5px;
-        height: 6.5px;
+        width: 7px;
+        height: 7px;
         background-color: rgba(255, 255, 255, 1);
         border-radius: 50%;
         transition: opacity 0.3s ease-in-out;
-        margin-left: 2px;
     }
 }

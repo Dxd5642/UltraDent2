@@ -10,6 +10,7 @@
     "deploy": "node deploy.js"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
     "sass": "^1.93.2",
     "vite": "^7.1.7"
   },

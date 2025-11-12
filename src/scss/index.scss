@@ -20,6 +20,8 @@
 
 @use './bottom2/bottom2.scss' as *;
 
+@use './faq/faq';
+
 @use './feedbacks/feedbacks.scss' as *;
 
 @use './contacts/contacts.scss' as *;
@@ -30,6 +32,10 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+html{
+  overflow-x: hidden;
 }
 
 .container{

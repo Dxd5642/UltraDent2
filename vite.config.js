@@ -12,6 +12,6 @@ export default defineConfig({
         assetsDir: 'assets',
         assetsInlineLimit: 4096,
     },
-    base: '/UltraDent2Deploy/',
+    base: '/dentalcare.stom-tum/',
     assetsInclude: ['**/*.svg']
 })

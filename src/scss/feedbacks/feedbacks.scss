@@ -21,7 +21,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 60px;
         margin-bottom: 71px;
         gap: 44px;
         max-width: 100%;
@@ -39,9 +39,16 @@
     &__reviews{
       overflow-x: scroll;
       scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
       display: flex;
       width: auto;
       justify-content: flex-start;
+
+      &::-webkit-scrollbar {
+        display: none;
+        width: 0;
+        height: 0;
+      }
 
       &:nth-child(1){
         padding-left: 16px;

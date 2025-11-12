@@ -10,6 +10,7 @@
         hyphens: none;
         word-break: break-all;
         overflow-wrap: normal;
+        white-space: nowrap;
     }
 
     &__text-2{
@@ -19,11 +20,15 @@
     }
 
     &__text-3-block{
-        width: auto;
+        width: fit-content;
         height: auto;
         padding: 10px;
         background-color: map.get(colors.$colors, white);
         border-radius: 16px;
+        hyphens: none;
+        word-break: break-all;
+        overflow-wrap: normal;
+        white-space: nowrap;
     }
 
     &__text-3{

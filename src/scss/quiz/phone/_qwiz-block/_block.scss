@@ -2,9 +2,9 @@
     .qwiz{
         &__qwiz-block{
             width: 365px;
-            height: 752px;
+            height: auto; //752px
             padding: 10px;
-            margin: 0px 0px 37px 0px;
+            margin: 0px;
 
 
             &.lastBlock{

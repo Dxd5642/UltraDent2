@@ -32,3 +32,10 @@ function back() {
 
 diplomasBtnNext.addEventListener('click', next);
 diplomasBtnBack.addEventListener('click', back);
+
+const imagesBefore = document.querySelectorAll('.feedbacks__img');
+imagesBefore.forEach(item => {
+    item.addEventListener('click', () =>{
+        item.classList.toggle('active');
+    })
+});

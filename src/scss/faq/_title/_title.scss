@@ -1,0 +1,42 @@
+@use '../../mixins/fonts.scss';
+
+.faq{
+    &__title{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        @include fonts.Noto-sans(32px, 500, 40px, 0px);
+        color: rgba(45, 45, 45, 1);
+        margin-bottom: 16px;
+        text-align: center;
+
+        &_green{
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: -2px;
+            color: rgba(255, 255, 255, 1);
+            font-style: italic;
+
+            background-color: rgba(30, 134, 62, 1);
+            padding: 6px 16px;
+            border-radius: 16px;
+        }
+    }
+}
+
+@media (max-width: 539px) {
+    .faq{
+        &__title{
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 373px) {
+    .faq{
+        &__title{
+            font-size: 28px;
+        }
+    }
+}

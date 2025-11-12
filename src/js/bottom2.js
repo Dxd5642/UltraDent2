@@ -1,5 +1,3 @@
-import toggleBackblur from "./message.js";
-
 class Bottom2 {
     constructor() {
         this.isAgree = true;

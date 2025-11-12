@@ -1,0 +1,26 @@
+@use '../../../mixins/fonts.scss';
+
+.footer{
+    &__row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        &--links{
+            display: flex;
+            gap: 24px;
+
+            &--text{
+                @include fonts.Noto-sans(14px, 400, 150%, 0em);
+                color: rgba(255, 255, 255, 1);
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__imgProrok{
+        width: 165px;
+        height: 50px;
+    }
+}
